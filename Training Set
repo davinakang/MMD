@@ -1,0 +1,3 @@
+%% .csv file to table
+T = readtable('training_data.csv', 'ReadVariableNames', true);
+Train = T(1:920, :);
